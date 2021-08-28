@@ -36,5 +36,5 @@ class admin():
         if message.author.id == 554486518543155212:
             print('aaa')
             for user in message.mentions:
-                role = message.guild.get_role(835943319158128660)
+                role = message.guild.get_role(844616576300744724)
                 await user.add_roles(role)
