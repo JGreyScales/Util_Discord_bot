@@ -39,6 +39,7 @@ functions = {
     'diceroll' : ( lambda: (fun.diceroll(true_message, prefix, true_message_content))),
     'kick' : ( lambda: (admin.kick(true_message, admins))),
     'ban' : ( lambda: admin.ban(true_message, admins)),
+    'mute': lambda: (admin.mute(true_message, admins)),
     'd_diceroll': ( lambda: (DD.dddiceroll(true_message, prefix))),
     'dd' : (lambda: admin.dnd(true_message))
 }
